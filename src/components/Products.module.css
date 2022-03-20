@@ -1,0 +1,39 @@
+.box {
+  position: relative;
+  height: 520px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0 40px 0;
+  border: 0.1rem solid black;
+  padding: 10px 0 40px 0;
+  flex-wrap: wrap;
+  /* clip: rect(0px, 120px, 100px, 0px); */
+  overflow: hidden;
+}
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.1);
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 32.5px;
+  top: 41%;
+  /* left: 0px; */
+  z-index: 1000;
+  transition: background 300ms ease-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+.left {
+  left: 18px;
+}
+.right {
+  right: 18px;
+}
