@@ -17,8 +17,8 @@ const Products = (props) => {
     const lastPosition = data[data.length - 1].pos
     let step
     if (
-      lastPosition < props.width - spaceEnd &&
-      lastPosition > props.width - spaceEnd - 420
+      lastPosition <= props.width - spaceEnd &&
+      lastPosition >= props.width - spaceEnd - 420
     ) {
       // last step, set isRight to true
       step = lastPosition - (props.width - spaceEnd - 420)
@@ -41,8 +41,8 @@ const Products = (props) => {
     //
     let step
     //  -box-width + spaceStart  < x < spaceStart
-    if (firstPosition < spaceStart && firstPosition > spaceStart - 420) {
-      // last step, set isRight to true
+    if (firstPosition <= spaceStart && firstPosition >= spaceStart - 420) {
+      // last step, set isLeft to true
       step = spaceStart - firstPosition
       setIsLeft(true)
     } else {

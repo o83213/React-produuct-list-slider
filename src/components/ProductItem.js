@@ -3,11 +3,9 @@ import { useState, useEffect } from 'react'
 const ProductItem = (props) => {
   const [data, setData] = useState(props.data)
   useEffect(() => {
-    // console.log(props.data)
     setData(props.data)
   }, [props.data])
   return (
-    // <div className={`${classes.box} ${pos && classes[`position${pos}`]}`}>
     <div className={classes.box} style={{ left: data.pos }}>
       <div className={classes.tytle}>{data.name}</div>
       <div className={classes.description}>Some Lorem discription</div>
