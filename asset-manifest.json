@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-produuct-list-slider/static/css/main.ae07c944.css",
+    "main.js": "/React-produuct-list-slider/static/js/main.f332c874.js",
+    "index.html": "/React-produuct-list-slider/index.html",
+    "main.ae07c944.css.map": "/React-produuct-list-slider/static/css/main.ae07c944.css.map",
+    "main.f332c874.js.map": "/React-produuct-list-slider/static/js/main.f332c874.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae07c944.css",
+    "static/js/main.f332c874.js"
+  ]
+}
