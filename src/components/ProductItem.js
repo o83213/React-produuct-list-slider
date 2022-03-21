@@ -14,7 +14,9 @@ const ProductItem = (props) => {
       <div className={classes.content}>
         {`Now in ${data.color}. Only $${data.price}!`}
       </div>
-      <div className={classes.pic}>Pic</div>
+      <div className={classes.pic}>
+        <div>I am a pic url</div>
+      </div>
     </div>
   )
 }

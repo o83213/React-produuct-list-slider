@@ -1,6 +1,6 @@
 .box {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 1200px;
   height: 500px;
   width: 400px;
@@ -10,10 +10,8 @@
   box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 12px 0px;
   background-color: rgb(255, 255, 255);
   border: 0.1rem solid black;
-  margin: 0;
   padding: 30px;
   transition: 300ms ease-out;
-  /* transition: left 1s ease-in-out; */
   cursor: pointer;
   display: flex;
   flex-flow: column;
@@ -26,24 +24,23 @@
   box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 18px 0px;
 }
 .box .tytle {
-  border: 0.1rem solid black;
   color: rgb(110, 110, 115);
   font-size: 12px;
   font-weight: 600;
-  height: 10%;
+  height: 7%;
 }
 .box .description {
-  border: 0.1rem solid black;
   font-size: 28px;
   font-weight: 600;
   height: 10%;
 }
 .box .content {
-  border: 0.1rem solid black;
   height: 10%;
 }
 .box .pic {
-  border: 0.1rem solid black;
+  display: flex;
   height: 10%;
   flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
 }

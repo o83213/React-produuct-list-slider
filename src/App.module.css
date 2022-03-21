@@ -6,7 +6,6 @@
 .App .header {
   display: flex;
   font-size: 17px;
-  justify-content: start;
   margin: 0;
   margin-bottom: 14px;
   overflow: hidden;
@@ -21,7 +20,6 @@
   font-weight: 600;
   color: rgb(29, 29, 31);
   white-space: nowrap;
-  /* border: 0.1rem solid black; */
 }
 .App .header span {
   font-size: 28px;

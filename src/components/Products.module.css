@@ -1,35 +1,43 @@
 .box {
   position: relative;
-  height: 520px;
+  height: 540px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 10px 0 40px 0;
-  border: 0.1rem solid black;
-  padding: 10px 0 40px 0;
   flex-wrap: wrap;
-  /* clip: rect(0px, 120px, 100px, 0px); */
   overflow: hidden;
 }
-.btn {
+
+.box .btn {
   position: absolute;
   display: flex;
+  opacity: 0;
   align-items: center;
   justify-content: center;
   background: rgba(0, 0, 0, 0.1);
+  padding: 0;
   width: 65px;
   height: 65px;
   border: none;
   border-radius: 32.5px;
-  top: 41%;
-  /* left: 0px; */
+  top: 42%;
+  overflow: hidden;
   z-index: 1000;
-  transition: background 300ms ease-out;
+  transition: all 300ms ease-out;
   cursor: pointer;
 }
-.btn:hover {
+.box:hover .btn {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+.box .btn:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+.box .btn .btnLogo {
+  font-size: 28px;
+  font-weight: bold;
 }
 .left {
   left: 18px;

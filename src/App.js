@@ -15,7 +15,7 @@ function App() {
     }
     fetchDataHandler()
   }, [])
-  //////////////
+  //
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth)
@@ -32,7 +32,6 @@ function App() {
         <span>Take a look at what's new, right now.</span>
       </div>
       <Products data={data} width={width} />
-      <div>{width}</div>
     </div>
   )
 }
